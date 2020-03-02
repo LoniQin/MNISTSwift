@@ -1,7 +1,7 @@
 # MNISTSwift
 This sample shows how to train MNIST dataset in Swift. It's based on **MetalPerformanceShaders** framwork.
 ## Requirement
-You should have **Xcode 11** installed. And the OS version should not be lower than **OSX 10.15**. And terminal should have **gzip** command to decompress gz file.
+You should have **Xcode 11** installed. And the OS version should not be lower than **OSX 10.15**. And terminal should have **gzip** command installed to decompress gz file.
 ## Result
 This sample can reach 98% test accuracy in 1 epoch.
 ```
