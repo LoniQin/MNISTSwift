@@ -1,5 +1,7 @@
 # MNISTSwift
 This sample shows how to train MNIST dataset in Swift. It's based on **MetalPerformanceShaders** framwork.
+## Requirement
+You should have **Xcode 11** installed. And the OS version should not be lower than **OSX 10.15**.
 ## Result
 ```
 iteration: 0 Training loss = 0.65278214 elapsed time: 0.6494189500808716s Estimated Time:974.1284251213074s
