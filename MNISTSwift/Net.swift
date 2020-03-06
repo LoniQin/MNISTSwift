@@ -1,5 +1,5 @@
 //
-//  Net1.swift
+//  Net.swift
 //  MNISTSwift
 //
 //  Created by lonnie on 2020/3/2.
