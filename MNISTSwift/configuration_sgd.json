@@ -1,0 +1,4 @@
+{
+    "type": "sgd",
+    "learningRate": 1e-2
+}

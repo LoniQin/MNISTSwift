@@ -28,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F04BD758258288470042819A /* configuration_sgd.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = configuration_sgd.json; sourceTree = "<group>"; };
+		F04BD75A2582887C0042819A /* configuration_adam.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = configuration_adam.json; sourceTree = "<group>"; };
 		F0A17FFC240D6BEA0081B59B /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		F0C6D307240D4998006D1B4E /* MNISTSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MNISTSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C6D30A240D4998006D1B4E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -73,6 +75,8 @@
 				F0C6D312240D4A2E006D1B4E /* Net.swift */,
 				F0C6D30A240D4998006D1B4E /* main.swift */,
 				F0A17FFC240D6BEA0081B59B /* functions.swift */,
+				F04BD758258288470042819A /* configuration_sgd.json */,
+				F04BD75A2582887C0042819A /* configuration_adam.json */,
 			);
 			path = MNISTSwift;
 			sourceTree = "<group>";
@@ -263,10 +267,11 @@
 		F0C6D30F240D4998006D1B4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BKNC7399GK;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -274,10 +279,11 @@
 		F0C6D310240D4998006D1B4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BKNC7399GK;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

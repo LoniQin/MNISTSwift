@@ -83,7 +83,6 @@ class MNISTDataSet: DataSet {
     
     func dataPath(with name: String) -> String {
         return Bundle.main.bundlePath + "/" + name
-        
     }
     
     func load() throws {

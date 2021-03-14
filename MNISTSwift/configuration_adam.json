@@ -1,0 +1,8 @@
+{
+    "type": "adam",
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 10e-8,
+    "learningRate": 1e-3,
+    "timeStep": 0
+}

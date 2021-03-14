@@ -94,11 +94,6 @@ class ConvolutionWeights: NSObject, MPSCNNConvolutionDataSource {
         randomKernel.encode(commandBuffer: commandBuffer, destinationVector: weightVector)
         commandBuffer.commit()
         commandBuffer.waitUntilCompleted()
-        weightMomentumVector.data.didModifyRange(0..<sizeOfWeights())
-        weightVelocityVector.data.didModifyRange(0..<sizeOfWeights())
-        biasVector.data.didModifyRange(0..<sizeOfBias())
-        biasMomentumVector.data.didModifyRange(0..<sizeOfBias())
-        biasVelocityVector.data.didModifyRange(0..<sizeOfBias())
     }
     
     func dataType() -> MPSDataType {
